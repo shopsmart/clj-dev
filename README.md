@@ -16,6 +16,11 @@ Usage:
 
 Mount large Clojure data structures and navigate them using Unix filesystem-like commands.  Results are automatically paged in order to prevent crashing your REPL by printing too much information at once.
 
+# Learning Clojure(script)
+
+* https://github.com/bbatsov/clojure-style-guide
+* https://github.com/magomimmo/modern-cljs/blob/master/doc/second-edition/tutorial-01.md
+
 
 # Other resources
 
