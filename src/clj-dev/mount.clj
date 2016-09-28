@@ -18,6 +18,7 @@
 
   (:require [clojure.pprint :as pp :refer [pprint]]
             [clojure.string :as s]
+            [clj-foundation.tree-visit :as v]
             [clj-foundation.errors :as err])
   (:gen-class))
 
@@ -39,8 +40,9 @@
 
 (defn pwd
   "Print the current object's name and a vector describing the path descended from the object's root."
-  [] (if-let [cursor (find-cursor)]
-               (:pwd cursor)))
+  []
+  (if-let [cursor (find-cursor)]
+    (:pwd cursor)))
 
 (defn current
   "Return the current Clojure object pointed to by the pwd and ls functions.  Optionally, 'current'
