@@ -12,6 +12,9 @@ Usage:
 (breakpoint)
 ```
 
+Note: Emacs doesn't like sub-repls; if you use Emacs: sorry. :-()
+
+
 # mount.clj
 
 Mount large Clojure data structures and navigate them using Unix filesystem-like commands.  Results are automatically paged in order to prevent crashing your REPL by printing too much information at once.
@@ -28,7 +31,7 @@ Other good tools for debugging:
 
 * https://github.com/jonase/kibit
 * https://github.com/dgrnbrg/spyscope
-* https://github.com/zcaudate/vinyasa
+* http://docs.caudate.me/lucidity/
 
 And debug tooling docs...
 
