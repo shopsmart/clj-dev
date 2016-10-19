@@ -15,4 +15,4 @@
   :dependencies [[org.clojure/clojure "1.8.0"]
                  [org.clojure/tools.logging "0.3.1"]
                  [ns-tracker "0.3.0"]
-                 [com.github.shopsmart/clj-foundation "0.9.15"]])
+                 [com.github.shopsmart/clj-foundation "0.9.17"]])
