@@ -1,8 +1,8 @@
 repository:
   name: clj-dev
-  description: Clojure tools making development and exploration more friendly
+  description: "**DEPRECATED** Clojure tools making development and exploration more friendly"
   homepage: null
-  topics: ''
+  topics: deprecated,obselete,archived
   private: false
   has_issues: true
   has_projects: true
